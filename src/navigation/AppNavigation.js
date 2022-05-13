@@ -107,12 +107,12 @@ const MainNavigator = createDrawerNavigator({
             // drawerIcon: <Ionicons name='ios-star'/>
         }
     },
-    About:{
-        screen: AboutNavigator,
-        navigationOptions:{
-            drawerLabel: 'О приложении'
-        }
-    }, 
+    // About:{
+    //     screen: AboutNavigator,
+    //     navigationOptions:{
+    //         drawerLabel: 'О приложении'
+    //     }
+    // }, 
     Create:{
         screen: CreateNavigator,
         navigationOptions:{
